@@ -4,284 +4,486 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Sruthi Shinde | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header class="topbar">
-    <div class="container nav">
+  <div class="bg-shape shape1"></div>
+  <div class="bg-shape shape2"></div>
+
+  <header class="navbar">
+    <div class="container nav-container">
       <div class="logo">Portfolio</div>
       <nav class="nav-links">
         <a href="#intro">About</a>
+        <a href="#education">Education</a>
         <a href="#certificates">Certificates</a>
         <a href="#learning">Learning</a>
         <a href="#projects">Projects</a>
         <a href="#skills">Skills</a>
-        <a href="#contact">Contact</a>
       </nav>
     </div>
   </header>
 
-  <section id="intro" class="hero">
-    <div class="container hero-content">
-      <div class="avatar">S</div>
-      <h1>Sruthi Shinde</h1>
-      <h2>Aspiring Web Developer</h2>
-      <p>
-        Passionate about technology, continuous learning, and building useful
-        projects. I am improving my skills in web development, DSA, Python,
-        AI/ML basics, and problem solving for internships and placements.
-      </p>
+  <main>
+    <section id="intro" class="hero">
+      <div class="container hero-content">
+        <div class="hero-avatar">S</div>
+        <h1>Sruthi Shinde</h1>
+        <h2>BTech in AI & Data Science</h2>
+        <p>
+          Passionate about technology and continuous learning. Building practical
+          projects, exploring new concepts, and improving my problem-solving
+          skills as an aspiring developer.
+        </p>
 
-      <div class="hero-buttons">
-        <a href="mailto:sruthishinde2885@gmail.com" class="btn primary">Email</a>
-        <a href="https://github.com/srxthi-bot" target="_blank" class="btn secondary">GitHub</a>
-        <a href="#" class="btn secondary">LinkedIn</a>
+        <div class="hero-buttons">
+          <a href="mailto:sruthishinde2885@gmail.com" class="btn primary">Email</a>
+          <a href="https://www.linkedin.com/in/sruthishinde-2885srs" target="_blank" class="btn secondary">LinkedIn</a>
+          <a href="https://github.com/srxthi-bot" target="_blank" class="btn secondary">GitHub</a>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section class="search-filter">
-    <div class="container search-row">
-      <input type="text" placeholder="Search section titles, projects, skills..." />
-      <select>
-        <option>All</option>
-        <option>Development</option>
-        <option>DSA</option>
-        <option>Python</option>
-        <option>AI/ML</option>
-      </select>
-    </div>
-  </section>
-
-  <section id="certificates" class="section">
-    <div class="container">
-      <h2 class="section-title">Certificates & Credentials</h2>
-      <div class="card-grid three">
-        <article class="card">
-          <div class="card-top">
-            <span class="icon">🏆</span>
-            <span class="tag">Development</span>
+    <section id="education" class="section alt-section">
+      <div class="container">
+        <h2 class="section-title">Education</h2>
+        <div class="stack-layout">
+          <div class="card education-card">
+            <div class="card-head">
+              <div>
+                <h3>Bachelor of Technology - BTech</h3>
+                <p class="highlight">Artificial Intelligence and Data Science</p>
+              </div>
+              <span class="badge green">Pursuing</span>
+            </div>
+            <p>Annasaheb Dange College of Engineering and Technology, ASHTA</p>
+            <div class="card-footer">
+              <span>Aug 2023 – June 2027</span>
+            </div>
           </div>
-          <h3>NxtWave Web Development Certificate</h3>
-          <p class="muted">NxtWave</p>
-          <p>
-            Learned website structure, styling, responsive layouts, and modern
-            frontend concepts.
-          </p>
-          <p class="date">2025</p>
-        </article>
 
-        <article class="card">
-          <div class="card-top">
-            <span class="icon">🏆</span>
-            <span class="tag">Programming</span>
+          <div class="card education-card">
+            <div class="card-head">
+              <div>
+                <h3>Higher Secondary School</h3>
+                <p class="highlight">12th Standard</p>
+              </div>
+              <span class="badge blue">Completed</span>
+            </div>
+            <p>Chittur Palakkad</p>
+            <div class="card-footer">
+              <span>Jun 2021 – Mar 2023</span>
+              <strong>76.33%</strong>
+            </div>
           </div>
-          <h3>Python Programming Certificate</h3>
-          <p class="muted">Course / Practice Program</p>
-          <p>
-            Built programming logic, syntax understanding, and practical coding
-            confidence through exercises and implementations.
-          </p>
-          <p class="date">2025</p>
-        </article>
 
-        <article class="card">
-          <div class="card-top">
-            <span class="icon">🏆</span>
-            <span class="tag">DSA</span>
+          <div class="card education-card">
+            <div class="card-head">
+              <div>
+                <h3>Secondary School</h3>
+                <p class="highlight">10th Standard</p>
+              </div>
+              <span class="badge blue">Completed</span>
+            </div>
+            <p>Government Victoria Girls Higher Secondary School - Chittur Palakkad</p>
+            <div class="card-footer">
+              <span>Jun 2020 – Mar 2021</span>
+              <strong>89%</strong>
+            </div>
           </div>
-          <h3>DSA Practice / Learning Certificate</h3>
-          <p class="muted">Learning Platform</p>
-          <p>
-            Focused on arrays, strings, recursion, logic building, and coding
-            problem-solving practice.
-          </p>
-          <p class="date">2025</p>
-        </article>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section id="learning" class="section alt">
-    <div class="container">
-      <h2 class="section-title">Learning & Development</h2>
-
-      <div class="stack">
-        <article class="wide-card">
-          <h3>Web Development</h3>
-          <p>
-            I learned how to create websites using HTML, CSS, and JavaScript,
-            structure pages properly, make layouts responsive, and improve user
-            experience through clean design.
-          </p>
-          <div class="chips">
-            <span>HTML</span>
-            <span>CSS</span>
-            <span>JavaScript</span>
-            <span>Responsive Design</span>
-          </div>
-        </article>
-
-        <article class="wide-card">
-          <h3>Data Structures and Algorithms</h3>
-          <p>
-            I practiced coding logic, arrays, strings, recursion, and
-            step-by-step problem solving to improve accuracy and speed.
-          </p>
-          <div class="chips">
-            <span>Arrays</span>
-            <span>Strings</span>
-            <span>Recursion</span>
-            <span>Problem Solving</span>
-          </div>
-        </article>
-
-        <article class="wide-card">
-          <h3>Python & AI/ML Basics</h3>
-          <p>
-            I explored Python fundamentals and regression-related machine
-            learning basics such as training, prediction, and evaluation.
-          </p>
-          <div class="chips">
-            <span>Python</span>
-            <span>Regression</span>
-            <span>Prediction</span>
-            <span>Evaluation</span>
-          </div>
-        </article>
+    <section class="search-bar-section">
+      <div class="container search-bar">
+        <input type="text" placeholder="Search certificates, projects, technologies..." />
+        <div class="filter-tags">
+          <span>All</span>
+          <span>Data Analytics</span>
+          <span>AI</span>
+          <span>Development</span>
+          <span>Web</span>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section id="projects" class="section">
-    <div class="container">
-      <h2 class="section-title">Projects</h2>
-      <div class="card-grid two">
-        <article class="card">
-          <div class="card-top">
-            <span class="icon">💻</span>
-            <span class="tag green">Development</span>
+    <section id="certificates" class="section">
+      <div class="container">
+        <h2 class="section-title">Certificates & Credentials</h2>
+        <div class="grid three-col">
+          <div class="card">
+            <div class="card-top">
+              <span class="icon">🏆</span>
+              <span class="badge blue">Data Analytics</span>
+            </div>
+            <h3>GenAI Powered Data Analytics Job Simulation</h3>
+            <p class="muted">Tata - Forage</p>
+            <p>Job simulation focused on GenAI-powered data analytics techniques.</p>
+            <div class="chips">
+              <span>GenAI</span>
+              <span>Data Analytics</span>
+            </div>
+            <div class="card-footer">
+              <span>Mar 2026</span>
+              <small>ID: eZqSZgQa...</small>
+            </div>
           </div>
-          <h3>Resume Analyzer for Recruiters</h3>
-          <p>
-            A project using Python and NLP concepts to analyze resumes and help
-            match profiles with requirements.
-          </p>
-          <p><strong>Role:</strong> Builder / Learner</p>
-          <p><strong>Technologies:</strong> Python, NLP</p>
-          <a href="#" class="project-link">View Project</a>
-        </article>
 
-        <article class="card">
-          <div class="card-top">
-            <span class="icon">💻</span>
-            <span class="tag green">Education</span>
+          <div class="card">
+            <div class="card-top">
+              <span class="icon">🏆</span>
+              <span class="badge blue">Artificial Intelligence</span>
+            </div>
+            <h3>Certificate of Participation in Screening of AI Software</h3>
+            <p class="muted">Unstop</p>
+            <p>Participated in AI software screening and evaluation.</p>
+            <div class="chips">
+              <span>AI Software</span>
+              <span>Screening</span>
+            </div>
+            <div class="card-footer">
+              <span>Jan 2026</span>
+              <small>ID: 8ea2d788...</small>
+            </div>
           </div>
-          <h3>Student Marks Analyzer & Report Card Generator</h3>
-          <p>
-            A project to calculate marks, analyze performance, and generate a
-            structured report card.
-          </p>
-          <p><strong>Role:</strong> Builder / Learner</p>
-          <p><strong>Technologies:</strong> Python</p>
-          <a href="#" class="project-link">View Project</a>
-        </article>
 
-        <article class="card">
-          <div class="card-top">
-            <span class="icon">💻</span>
-            <span class="tag green">Web</span>
+          <div class="card">
+            <div class="card-top">
+              <span class="icon">🏆</span>
+              <span class="badge blue">Language</span>
+            </div>
+            <h3>EF SET English Certificate - B1 Intermediate</h3>
+            <p class="muted">EF SET</p>
+            <p>English proficiency test score: 46/100 (B1 Intermediate level).</p>
+            <div class="chips">
+              <span>English</span>
+            </div>
+            <div class="card-footer">
+              <span>Mar 2026</span>
+            </div>
           </div>
-          <h3>Shop Website Project</h3>
-          <p>
-            A website project created to practice page structure, design,
-            layout, and frontend website building.
-          </p>
-          <p><strong>Role:</strong> Frontend Learner</p>
-          <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
-          <a href="#" class="project-link">View Project</a>
-        </article>
 
-        <article class="card">
-          <div class="card-top">
-            <span class="icon">💻</span>
-            <span class="tag green">Portfolio</span>
+          <div class="card">
+            <div class="card-top">
+              <span class="icon">🏆</span>
+              <span class="badge blue">Development</span>
+            </div>
+            <h3>Google Developer Groups On Campus (GDG) - Solution Challenge 2025</h3>
+            <p class="muted">Hack2skill</p>
+            <p>Participated in the Google Developer Groups on Campus Solution Challenge 2025.</p>
+            <div class="chips">
+              <span>Google Cloud</span>
+              <span>Problem Solving</span>
+            </div>
+            <div class="card-footer">
+              <span>Aug 2025</span>
+              <small>ID: 2025H2S01...</small>
+            </div>
           </div>
-          <h3>Personal Portfolio Website</h3>
-          <p>
-            My personal website to showcase my background, certificates,
-            learning journey, skills, and projects.
-          </p>
-          <p><strong>Role:</strong> Designer / Builder</p>
-          <p><strong>Technologies:</strong> HTML, CSS</p>
-          <a href="#" class="project-link">View Project</a>
-        </article>
+
+          <div class="card">
+            <div class="card-top">
+              <span class="icon">🏆</span>
+              <span class="badge blue">Data Science</span>
+            </div>
+            <h3>Data Science Training Certification</h3>
+            <p class="muted">Wipro - Acmegrade</p>
+            <p>Successfully completed training in data science.</p>
+            <div class="chips">
+              <span>Analytics</span>
+              <span>Data Science</span>
+            </div>
+            <div class="card-footer">
+              <span>Jan 2025</span>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-top">
+              <span class="icon">🏆</span>
+              <span class="badge blue">Web Development</span>
+            </div>
+            <h3>HTML and CSS Certification</h3>
+            <p class="muted">SkillEcted</p>
+            <p>Certification in HTML and CSS fundamentals.</p>
+            <div class="chips">
+              <span>HTML</span>
+              <span>CSS</span>
+            </div>
+            <div class="card-footer">
+              <span>Dec 2024</span>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-top">
+              <span class="icon">🏆</span>
+              <span class="badge blue">Development</span>
+            </div>
+            <h3>MASAI TECHEDGE 3.0</h3>
+            <p class="muted">Masai</p>
+            <p>Participated in MASAI TECHEDGE 3.0 program.</p>
+            <div class="chips">
+              <span>Analytics</span>
+              <span>Full Stack Development</span>
+            </div>
+            <div class="card-footer">
+              <span>Jul 2024</span>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-top">
+              <span class="icon">🏆</span>
+              <span class="badge blue">Database</span>
+            </div>
+            <h3>SQL Certification</h3>
+            <p class="muted">TestDome</p>
+            <p>SQL proficiency certification.</p>
+            <div class="chips">
+              <span>SQL</span>
+              <span>Database Management</span>
+            </div>
+            <div class="card-footer">
+              <span>Feb 2025</span>
+              <small>ID: cced0d53...</small>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section id="skills" class="section alt">
-    <div class="container">
-      <h2 class="section-title">Skills & Expertise</h2>
-
-      <div class="skills-layout">
-        <div class="skills-box">
-          <h3>Technical Skills</h3>
-
-          <div class="skill">
-            <div class="skill-row"><span>HTML/CSS</span><span>90%</span></div>
-            <div class="bar"><div class="fill w90"></div></div>
+    <section id="learning" class="section alt-section">
+      <div class="container">
+        <h2 class="section-title">Learning & Development</h2>
+        <div class="stack-layout">
+          <div class="card">
+            <h3>Programming Fundamentals</h3>
+            <p>Built strong foundation in programming logic, memory management, and object-oriented programming concepts.</p>
+            <div class="chips">
+              <span>C</span>
+              <span>C++</span>
+            </div>
           </div>
 
-          <div class="skill">
-            <div class="skill-row"><span>JavaScript</span><span>75%</span></div>
-            <div class="bar"><div class="fill w75"></div></div>
+          <div class="card">
+            <h3>Data Science & Analytics</h3>
+            <p>Gained expertise in data manipulation, statistical analysis, and creating insightful visualizations to drive data-driven decisions.</p>
+            <div class="chips">
+              <span>Python for Data Science</span>
+              <span>Data Analytics</span>
+              <span>Data Exploration and Visualization</span>
+              <span>Data Science using R</span>
+            </div>
           </div>
 
-          <div class="skill">
-            <div class="skill-row"><span>Python</span><span>80%</span></div>
-            <div class="bar"><div class="fill w80"></div></div>
+          <div class="card">
+            <h3>Web Development</h3>
+            <p>Learned to build responsive and interactive web applications with modern web technologies.</p>
+            <div class="chips">
+              <span>Web Technology</span>
+              <span>HTML</span>
+              <span>CSS</span>
+            </div>
           </div>
 
-          <div class="skill">
-            <div class="skill-row"><span>DSA</span><span>70%</span></div>
-            <div class="bar"><div class="fill w70"></div></div>
+          <div class="card">
+            <h3>Core Computer Science</h3>
+            <p>Developed strong problem-solving abilities and understanding of how computers work at a fundamental level.</p>
+            <div class="chips">
+              <span>Data Structures and Algorithms</span>
+              <span>Design and Analysis of Algorithms</span>
+              <span>Operating System</span>
+            </div>
           </div>
 
-          <div class="skill">
-            <div class="skill-row"><span>AI/ML Basics</span><span>65%</span></div>
-            <div class="bar"><div class="fill w65"></div></div>
+          <div class="card">
+            <h3>Database & Cloud Technologies</h3>
+            <p>Mastered database design, SQL queries, and cloud-based application deployment and management.</p>
+            <div class="chips">
+              <span>Database Management System</span>
+              <span>SQL</span>
+              <span>Cloud Computing</span>
+            </div>
+          </div>
+
+          <div class="card">
+            <h3>Artificial Intelligence & Machine Learning</h3>
+            <p>Explored cutting-edge AI technologies, building models for prediction, classification, and image recognition tasks.</p>
+            <div class="chips">
+              <span>Machine Learning</span>
+              <span>Deep Learning</span>
+              <span>Computer Vision</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <h2 class="section-title">Projects</h2>
+        <div class="grid two-col">
+          <div class="card">
+            <div class="card-top">
+              <span class="icon">💻</span>
+              <span class="badge green">AI & ML</span>
+            </div>
+            <h3>Resume Analyzer for Recruiters</h3>
+            <p>A smart application that analyzes resumes, extracts important skills, and helps match candidates with job requirements.</p>
+            <p><strong>Role:</strong> Developer</p>
+            <p><strong>Impact:</strong> Automated resume screening process for recruiters</p>
+            <div class="chips">
+              <span>Python</span>
+              <span>Natural Language Processing</span>
+              <span>Machine Learning</span>
+              <span>Data Analytics</span>
+            </div>
+            <a href="https://github.com/srxthi-bot" target="_blank" class="project-link">View Project</a>
+          </div>
+
+          <div class="card">
+            <div class="card-top">
+              <span class="icon">💻</span>
+              <span class="badge green">Data Science</span>
+            </div>
+            <h3>Data Visualization Dashboard</h3>
+            <p>An interactive dashboard that converts raw data into charts and visual insights for better analysis and decision-making.</p>
+            <p><strong>Role:</strong> Developer</p>
+            <p><strong>Impact:</strong> Enabled data-driven decision making through interactive visualizations</p>
+            <div class="chips">
+              <span>Python</span>
+              <span>Data Visualization</span>
+              <span>Pandas</span>
+              <span>Plotly</span>
+              <span>Streamlit</span>
+            </div>
+            <a href="https://github.com/srxthi-bot" target="_blank" class="project-link">View Project</a>
+          </div>
+
+          <div class="card">
+            <div class="card-top">
+              <span class="icon">💻</span>
+              <span class="badge green">Data Analytics</span>
+            </div>
+            <h3>Student Performance Analyzer</h3>
+            <p>A system that analyzes student marks, attendance, and academic performance to generate reports and useful insights.</p>
+            <p><strong>Role:</strong> Developer</p>
+            <p><strong>Impact:</strong> Helped identify struggling students and track academic progress</p>
+            <div class="chips">
+              <span>Python</span>
+              <span>Data Analytics</span>
+              <span>Visualization</span>
+              <span>Excel Integration</span>
+            </div>
+            <a href="https://github.com/srxthi-bot" target="_blank" class="project-link">View Project</a>
+          </div>
+
+          <div class="card">
+            <div class="card-top">
+              <span class="icon">💻</span>
+              <span class="badge green">Web Development</span>
+            </div>
+            <h3>E-Commerce Platform</h3>
+            <p>A web-based application for browsing products, managing carts, and simulating an online shopping experience.</p>
+            <p><strong>Role:</strong> Full Stack Developer</p>
+            <p><strong>Impact:</strong> Created seamless online shopping experience</p>
+            <div class="chips">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+              <span>Web Technology</span>
+            </div>
+            <a href="https://github.com/srxthi-bot" target="_blank" class="project-link">View Project</a>
+          </div>
+
+          <div class="card">
+            <div class="card-top">
+              <span class="icon">💻</span>
+              <span class="badge green">Web Development</span>
+            </div>
+            <h3>Task Management System</h3>
+            <p>A productivity application that helps users create, organize, update, and track daily tasks efficiently.</p>
+            <p><strong>Role:</strong> Frontend Developer</p>
+            <p><strong>Impact:</strong> Improved user productivity and task organization</p>
+            <div class="chips">
+              <span>Web Technology</span>
+              <span>JavaScript</span>
+              <span>Local Storage</span>
+              <span>Responsive Design</span>
+            </div>
+            <a href="https://github.com/srxthi-bot" target="_blank" class="project-link">View Project</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section alt-section">
+      <div class="container">
+        <h2 class="section-title">Skills & Expertise</h2>
+
+        <div class="grid two-col skill-grid">
+          <div class="card">
+            <h3 class="blue-heading">Programming & Database</h3>
+            <div class="chips">
+              <span>Python</span>
+              <span>SQL</span>
+            </div>
+          </div>
+
+          <div class="card">
+            <h3 class="blue-heading">Data / AI / ML</h3>
+            <div class="chips">
+              <span>Data Analytics</span>
+              <span>Data Visualization</span>
+              <span>Machine Learning</span>
+              <span>Deep Learning</span>
+              <span>Computer Vision</span>
+              <span>Data Exploration</span>
+            </div>
+          </div>
+
+          <div class="card">
+            <h3 class="blue-heading">Core Computer Science</h3>
+            <div class="chips">
+              <span>Data Structures and Algorithms</span>
+              <span>DBMS</span>
+              <span>Design and Analysis of Algorithms</span>
+              <span>Cloud Computing</span>
+            </div>
+          </div>
+
+          <div class="card">
+            <h3 class="blue-heading">Tools & Platforms</h3>
+            <div class="chips">
+              <span>GitHub</span>
+              <span>VS Code</span>
+              <span>Jupyter Notebook</span>
+              <span>Google Colab</span>
+            </div>
           </div>
         </div>
 
-        <div class="skills-box">
-          <h3>Soft Skills</h3>
-          <div class="soft-skills">
+        <div class="card soft-skill-card">
+          <h3 class="purple-heading">Soft Skills</h3>
+          <div class="chips special">
             <span>Problem Solving</span>
-            <span>Communication</span>
             <span>Team Collaboration</span>
+            <span>Communication</span>
             <span>Continuous Learning</span>
-            <span>Project Building</span>
-            <span>Consistency</span>
+            <span>Analytical Thinking</span>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section id="contact" class="section">
-    <div class="container contact-box">
-      <h2 class="section-title">Contact</h2>
-      <p><strong>Email:</strong> sruthishinde2885@gmail.com</p>
-      <p><strong>Phone:</strong> 7907146557</p>
-      <p><strong>Location:</strong> Sangli, India</p>
-    </div>
-  </section>
-
-  <footer class="footer">
-    <div class="container">
-      <p>© 2026 Sruthi Shinde. Built with HTML and CSS.</p>
-    </div>
-  </footer>
+    <footer class="footer">
+      <p>© 2026 Sruthi Shinde. Built with HTML & CSS.</p>
+    </footer>
+  </main>
 </body>
 </html>
